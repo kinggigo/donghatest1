@@ -7,4 +7,12 @@
 3. 빌드 및 실행 방법 `개발 당시 Go version 1.13.6 / OS : Mac `
 
 
-``` git  ```
+``` 
+git clone https://github.com/kinggigo/donghatest1.git 
+go get -u github.com/labstack/echo/...
+go get -u github.com/jinzhu/gorm
+
+go build -o bin/main main.go
+-> bin/main 실행 파일 생성. 
+
+```
